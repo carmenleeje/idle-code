@@ -28,15 +28,6 @@
   transition: background-color 0.2s;
 }
 
-.generate-button:disabled {
-  background-color: #2d2d2d;
-  cursor: not-allowed;
-}
-
-.generating {
-  opacity: 0.8;
-}
-
 .generate-button:hover {
   background-color: #1177bb;
 }

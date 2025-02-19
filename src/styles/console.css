@@ -12,13 +12,6 @@
 .console-line {
     display: flex;
     padding: 2px 0;
-    min-height: 1.2em;
-}
-
-.console-line:last-child .code-content::after {
-    content: '▊';
-    animation: blink 1s step-start infinite;
-    color: #569cd6;
 }
 
 .line-number {
@@ -34,14 +27,3 @@
     border-left: 1px solid #3d3d3d;
     white-space: pre;
 }
-
-@keyframes blink {
-    50% { opacity: 0; }
-}
-
-/* Syntax highlighting */
-.keyword { color: #569cd6; }
-.string { color: #ce9178; }
-.comment { color: #6a9955; }
-.tag { color: #569cd6; }
-.attribute { color: #9cdcfe; }
